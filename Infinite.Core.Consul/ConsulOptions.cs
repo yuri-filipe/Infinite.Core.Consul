@@ -3,6 +3,7 @@
     public class ConsulOptions
     {
         public string? ConsulAddress { get; set; }
+        public string? Environment { get; set; }
         public string? KeyPrefix { get; set; }
     }
 }
